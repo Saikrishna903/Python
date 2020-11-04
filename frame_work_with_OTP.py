@@ -1,5 +1,6 @@
 #Frame work program
 import validate_OTP
+validate_OTP.generate_OTP()
 menu_cfg_file_name = "menu.cfg"
 fields_cfg_file_name = "fields.cfg"
 updatable_fields_cfg_file_name = "updatablefields.cfg"
@@ -134,7 +135,6 @@ def exit_call():
 	exit()
 
 functions_list = [create_record, print_records, search_record, update_record, delete_record, exit_call]
-validate_OTP.generate_OTP()
 while(True):
 	print(menu)
 	try:
