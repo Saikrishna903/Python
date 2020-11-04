@@ -1,0 +1,6 @@
+Subject: Normal-Email
+Hai,
+
+I am sending mail using Python.
+
+Thank you.
